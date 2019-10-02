@@ -1,0 +1,56 @@
+Lesson 1 (Getting Started):
+angle brackets = < and >, tells html what to read
+tags = things inside of angle brackets, <tag>
+open tag = a tag that tells the code to start reading it as something <tag-type>
+close tag =  a tag that tells it to stop reading </tag-type>
+HTML element = content between open and close tags
+attribute = additional information about an html element, bounds to values using equals sign attribute="value"
+value = thing assigned to attribute attribute="value"
+assignment operator = an equals sign, tells you it is assigning
+comment = code doesn't read, for people <!-- comment -->
+
+Lesson 2 (Headings):
+headings = Changes font size. The goes from 1-6.
+  h1 = Title
+  h2 = Section
+  h3 = Sub-section
+  h4 = Sub-sub-section
+  h5 = Sub-sub-sub-section
+  h6 = Sub-sub-sub-sub-section
+formal language = a language with mathematically precise construction rules
+syntax = set of rules that defines what combination of symbols creates a correctly structured document
+markup language = a system for annotating a document in a way that is distinguishable from the text, interpreted by browser
+
+Lesson 3 (Elements):
+block-level elements = elements that create their own lines
+  <p></p> = Paragraph. Probably the most common tag you will use, it marks the beginning and end of a paragraph of text.
+  <pre></pre> = Preformatted text. This tag is good for examples of source code.
+  <div></div> = Block-level logical division. No default attributes.
+  <h1></h1>...<h6></h6> = All of the heading tags are block-level tags.
+  <header></header> = Marks the top section, or header, of a web page.
+  <footer></footer> = Marks the bottom section, or footer, of a web page.
+  <nav></nav> = Used for marking a navigation section.
+  <main></main> = Marks the main content area of the body of a web page.
+  <section></section> = Used for enclosing other elements that make up a section of a web page.
+  <article></article> = Used for enclosing a self-contained composition within a web page.
+inline elements = elements that can be used in a line with other elements
+  <strong></strong> = Used for text that you want to stand out.
+  <b></b> = Bolded text, like this.
+  <em></em> = Gives emphasis to the encoded text.
+  <i></i> = Italicized text.
+  <q></q> = Marks the beginning and ending of a quotation.
+  <code></code> = Indicates that the enclosed text is source code.
+  <kbd></kbd> = Indicates enclosed text is input by the user from a keyboard.
+  <sup></sup> = Encloses superscript text.
+  <sub></sub> = Encloses subscript text.
+  <a></a> = Sets a hyperlink to another document or location within a document.
+  <span></span> = Inline logical division. No default attributes.
+object elements = Insert objects, dont add text, no closing tag
+  <br> = Line break. This tag forces a line return.
+  <img> = Image tag. Used to display an image. (see Lesson 7).
+  <hr> = Horizontal rule. Places a horizontal line across the page.
+special characters = how to show <, >, and &
+  &lt =	<
+  &gt =	>
+  &amp =	&
+  &nbsp =	non-breaking space
