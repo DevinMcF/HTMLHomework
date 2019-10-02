@@ -54,3 +54,30 @@ special characters = how to show <, >, and &
   &gt =	>
   &amp =	&
   &nbsp =	non-breaking space
+
+Lesson 4 (Lists):
+list = A list of things, dotted list, numbered, lists, yknow?
+list item = an item in a list <li></li>, can be another list or a string
+unordered list = Dotted list, doesn't show specific order <ul></ul>
+ordered list = a list with an order, <ol type=""></ol>
+  <ol type="1"> = decimal numbers (1, 2, 3, ...), the default type.
+  <ol type="a"> = lower case letters (a, b, c, ...).
+  <ol type="A"> = upper case letters (A, B, C, ...).
+  <ol type="i"> = lower case roman numbers (i, ii, iii, iv, ...).
+  <ol type="I"> = upper case roman numbers (I, II, III, IV, ...).
+definition list = used for lists of terms and their descriptions.
+  HTML = Hyper-text Markup Language
+  WWW = World Wide Web
+  W3C = World Wide Web Consortium
+  dl = description list
+  dt = description term
+  dd = description details
+  <dl>
+    <dt>HTML</dt><dd>Hyper-text Markup Language</dd>
+    <dt>WWW</dt><dd>World Wide Web</dd>
+    <dt>W3C</dt><dd>World Wide Web Consortium</dd>
+    <dt>dl</dt><dd>description list</dd>
+    <dt>dt</dt><dd>description term</dd>
+    <dt>dd</dt><dd>description details</dd>
+  </dl>
+nested list = lists inside of list items.
