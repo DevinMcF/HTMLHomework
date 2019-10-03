@@ -81,3 +81,10 @@ definition list = used for lists of terms and their descriptions.
     <dt>dd</dt><dd>description details</dd>
   </dl>
 nested list = lists inside of list items.
+
+Lesson 5 (Tables):
+tables = hold tabular data <table></table>
+table row = a single row of the table (horizontal) <tr></tr>
+table header = Table heading - default usually bold and centered. <th></th>
+table data = specifies a cell of the table <td></td>, each row should have same
+amount, unless colspan="x" to indicate more than one collumn <td></td>
